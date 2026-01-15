@@ -1,16 +1,17 @@
 {
   "task-runners": [
     {
-      "runner-type": "n8n-javascript-runner",
+      "runner-type": "javascript",
       "health-check-server-port": "5681",
       "env-overrides": {}
     },
     {
-      "runner-type": "n8n-python-runner",
+      "runner-type": "python",
       "health-check-server-port": "5682",
       "env-overrides": {
-        "N8N_RUNNERS_STDLIB_ALLOW": "*"
+        "N8N_RUNNERS_STDLIB_ALLOW": "datetime,zoneinfo"
       }
     }
   ]
 }
+
