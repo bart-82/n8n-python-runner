@@ -4,14 +4,14 @@
       "runner-type": "javascript",
       "dir": "/tmp",
       "working-directory": "/tmp",
-      "health-check-server-port": "5681",
+      "health-check-server-port": "5999",
       "env-overrides": {}
     },
     {
       "runner-type": "python",
       "dir": "/tmp",
       "working-directory": "/tmp",
-      "health-check-server-port": "5682",
+      "health-check-server-port": "5998",
       "env-overrides": {
         "N8N_RUNNERS_STDLIB_ALLOW": "*"
       }
