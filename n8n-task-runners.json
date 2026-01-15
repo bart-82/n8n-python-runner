@@ -1,0 +1,10 @@
+{
+  "task-runners": [
+    {
+      "runner-type": "python",
+      "env-overrides": {
+        "N8N_RUNNERS_STDLIB_ALLOW": "*"
+      }
+    }
+  ]
+}
