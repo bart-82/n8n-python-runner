@@ -3,18 +3,21 @@
     {
       "runner-type": "javascript",
       "dir": "/tmp",
+      "working-directory": "/tmp",
       "health-check-server-port": "5681",
       "env-overrides": {}
     },
     {
       "runner-type": "python",
       "dir": "/tmp",
+      "working-directory": "/tmp",
       "health-check-server-port": "5682",
       "env-overrides": {
-        "N8N_RUNNERS_STDLIB_ALLOW": "datetime,zoneinfo"
+        "N8N_RUNNERS_STDLIB_ALLOW": "*"
       }
     }
   ]
 }
+
 
 
