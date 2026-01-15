@@ -1,0 +1,21 @@
+{
+  "allowed-env": [
+    "N8N_RUNNERS_STDLIB_ALLOW",
+    "N8N_RUNNERS_EXTERNAL_ALLOW"
+  ],
+  "task-runners": [
+    {
+      "runner-type": "javascript",
+      "workdir": "/tmp",
+      "health-check-server-port": "5681"
+    },
+    {
+      "runner-type": "python",
+      "workdir": "/tmp",
+      "health-check-server-port": "5682",
+      "env-overrides": {
+        "N8N_RUNNERS_STDLIB_ALLOW": "*"
+      }
+    }
+  ]
+}
