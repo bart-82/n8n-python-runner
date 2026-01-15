@@ -5,6 +5,11 @@
       "env-overrides": {
         "N8N_RUNNERS_STDLIB_ALLOW": "*"
       }
+      
+    },
+    {
+      "runner-type": "javascript",
+      "env-overrides": {}
     }
   ]
 }
